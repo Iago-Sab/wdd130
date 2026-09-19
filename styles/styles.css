@@ -1,9 +1,12 @@
 :root {
     --primary-color:darkblue; 
     --text-color:#000;
-
 }
-
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 main{
     max-width: 840px;
 }
@@ -20,7 +23,12 @@ aside img{
     width: 200px;
     height: auto;
 }
+aside h2{
+    position: absolute;
+    
+}
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: var(--text-color);
@@ -53,4 +61,14 @@ footer{
     margin-top: 15px;
     border-top: 1px solid var(--text-color);
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
