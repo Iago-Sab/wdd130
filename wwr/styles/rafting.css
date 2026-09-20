@@ -71,6 +71,13 @@ article{
 }
 .hero article{
     position: absolute;
+    bottom: 250px;
+    left: 30px;
+    width: 90%;
+    padding: 10px;
+    background-color: var(--accent1-color);
+    color: white;
+    opacity: 0.9;
 }
 .hero article img {
     float: right;
