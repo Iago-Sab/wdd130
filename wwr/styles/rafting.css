@@ -43,7 +43,7 @@ nav, p, section, article{
     position: relative;
 }
 
-.hero img {
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
@@ -65,7 +65,7 @@ article{
     color: white;
     width: fit-content;
     box-sizing: border-box;
-    padding: 5;
+    padding: 5px;
     opacity: 0.9;
     bottom: 250px;
 }
