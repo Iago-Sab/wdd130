@@ -1,11 +1,11 @@
 :root {
     --primary-color: #055a05;
     --accent1-color: #264653;
-    --heading-font: "Times New Roman","Georgia","serif";
-    --body-font: Arial,Helvetica,sans-serif;
+    --heading-font: "Times New Roman", "Georgia", "serif";
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,17 +16,23 @@ body {
     color: var(--accent1-color)
 }
 
-header, main, footer{
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav, p, section, article{
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -34,12 +40,13 @@ nav, p, section, article{
 .socialmedia a {
     text-decoration: none;
 }
-.socialmedia img{
+
+.socialmedia img {
     width: 75px;
     height: 75px;
 }
 
-.hero{
+.hero {
     position: relative;
 }
 
@@ -59,9 +66,10 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
-article{
+
+article {
     position: absolute;
-    background-color:var(--accent1-color);
+    background-color: var(--accent1-color);
     color: white;
     width: fit-content;
     box-sizing: border-box;
@@ -69,7 +77,8 @@ article{
     opacity: 0.9;
     bottom: 250px;
 }
-.hero article{
+
+.hero article {
     position: absolute;
     bottom: 250px;
     left: 30px;
@@ -79,7 +88,120 @@ article{
     color: white;
     opacity: 0.9;
 }
+
 .hero article img {
     float: right;
     width: 125px;
+}
+
+header {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+header a {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px 15px;
+    background: #e0e0e0;
+}
+
+footer {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.container-columns {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+}
+
+input {
+    position: relative;
+    left: 20px;
+    width: 300px;
+}
+
+.email {
+    display: block;
+    margin-top: 15px;
+}
+
+fieldset {
+    border: none;
+
+}
+
+.message_title {
+    position: relative;
+    top: 65px;
+    width: 120px;
+}
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+fieldset label input {
+    margin-right: -100px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.checkbox input {
+    position: static;
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.employee {
+    border: 2px solid #333;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+    background-color: plum;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.employee figure {
+    text-align: center;
 }
