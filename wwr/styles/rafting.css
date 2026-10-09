@@ -80,7 +80,7 @@ article {
 
 .hero article {
     position: absolute;
-    bottom: 250px;
+    bottom: 50px;
     left: 30px;
     width: 90%;
     padding: 10px;
@@ -216,4 +216,54 @@ textarea {
     font-size: 2rem;
     color: #fff;
     /* Ajusta para a cor do teu tema */
+}
+
+.history {
+    margin-top: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.history_content {
+    display: flex;
+    align-items: center;
+}
+
+.history_content p {
+    flex: 1;
+    margin: 0;
+}
+
+.history img {
+    width: 150px;
+    height: 100px;
+}
+
+.history h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.adventure {
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.adventure h2 {
+    text-align: center;
+}
+
+.adventure .adventure_figure {
+    gap: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
 }
