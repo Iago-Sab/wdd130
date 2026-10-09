@@ -219,12 +219,10 @@ textarea {
 }
 
 .history {
-    margin-top: 10px;
+    width: 100%;
     border: 2px solid black;
     box-sizing: border-box;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+    margin: 20px 0;
 }
 
 .history_content {
